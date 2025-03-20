@@ -11,8 +11,8 @@ def allowSelfSignedHttps(allowed):
 
 allowSelfSignedHttps(True)
 
-API_URL = "https://jaimevadell-0624-axuek.eastus2.inference.ml.azure.com/score"
-API_KEY = "EEjHVYb7tNPNtE9iHYs0wpZUEzgThD3wxhcjenMsAFbmugBTbqrIJQQJ99BCAAAAAAAAAAAAINFRAZML4FGS"
+API_URL = ""
+API_KEY = ""
 
 st.title("Chat con AI Foundry")
 
