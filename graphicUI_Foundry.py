@@ -11,8 +11,8 @@ def allowSelfSignedHttps(allowed):
 
 allowSelfSignedHttps(True)
 
-API_URL = ""
-API_KEY = ""
+API_URL = os.getenv("API_URL")
+API_KEY = os.getenv("API_KEY")
 
 st.title("Chat con AI Foundry")
 
